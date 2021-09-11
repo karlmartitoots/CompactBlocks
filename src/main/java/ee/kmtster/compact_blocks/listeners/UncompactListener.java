@@ -1,8 +1,7 @@
 package ee.kmtster.compact_blocks.listeners;
 
-import ee.kmtster.compact_blocks.CompactBlock;
-import ee.kmtster.compact_blocks.CompactBlocks;
-import org.bukkit.Bukkit;
+import ee.kmtster.compact_blocks.model.CompactBlock;
+import ee.kmtster.compact_blocks.CompactBlocksPlugin;
 import org.bukkit.ChatColor;
 import org.bukkit.NamespacedKey;
 import org.bukkit.entity.Player;
@@ -17,12 +16,10 @@ import static ee.kmtster.compact_blocks.StringUtils.snakeCase;
 
 public class UncompactListener implements Listener {
 
-    private final CompactBlocks plugin;
+    private final CompactBlocksPlugin plugin;
 
-    public UncompactListener(CompactBlocks plugin) {
+    public UncompactListener(CompactBlocksPlugin plugin) {
         this.plugin = plugin;
-
-        Bukkit.getPluginManager().registerEvents(this, plugin);
     }
 
     @EventHandler
@@ -44,7 +41,7 @@ public class UncompactListener implements Listener {
             return;
         }
 
-        CompactBlock compactBlock = CompactBlocks.compacts.get(key);
+        CompactBlock compactBlock = CompactBlocksPlugin.compacts.get(key);
         if (compactBlock == null) // is a compact item
             return;
 

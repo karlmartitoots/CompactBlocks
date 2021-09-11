@@ -8,7 +8,7 @@ public class StringUtils {
         return String.join("_", str.split(" ")).toLowerCase();
     }
 
-    static String capitalize(String str) {
+    public static String capitalize(String str) {
         char[] charArray = str.toCharArray();
         boolean foundSpace = true;
 

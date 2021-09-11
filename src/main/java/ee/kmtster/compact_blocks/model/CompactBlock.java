@@ -1,4 +1,4 @@
-package ee.kmtster.compact_blocks;
+package ee.kmtster.compact_blocks.model;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
@@ -41,8 +41,8 @@ public abstract class CompactBlock {
 
     protected List<String> lore() {
         return Arrays.asList(
-                ChatColor.WHITE + "RIGHT-CLICK to uncompact",
-                ChatColor.WHITE + "SHIFT + RIGHT-CLICK to uncompact all"
+                ChatColor.YELLOW + "RIGHT-CLICK" + ChatColor.WHITE + " to uncompact",
+                ChatColor.YELLOW + "SHIFT + RIGHT-CLICK " + ChatColor.WHITE + "to uncompact all"
         );
     }
 

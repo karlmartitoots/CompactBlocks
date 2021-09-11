@@ -1,4 +1,4 @@
-package ee.kmtster.compact_blocks;
+package ee.kmtster.compact_blocks.model;
 
 import org.bukkit.NamespacedKey;
 import org.bukkit.inventory.ShapedRecipe;
@@ -6,18 +6,18 @@ import org.bukkit.inventory.ShapedRecipe;
 public class CompactBlockRecipe {
 
     private final CompactBlock compactBlock;
-    private final ShapedRecipe shapedRecipe;
+    private final ShapedRecipe recipe;
 
     public CompactBlockRecipe(NamespacedKey key, CompactBlock compactBlock) {
         this.compactBlock = compactBlock;
 
-        this.shapedRecipe = new ShapedRecipe(key, compactBlock.getCompactItem());
-        this.shapedRecipe.shape("xxx", "xxx", "xxx");
-        this.shapedRecipe.setIngredient('x', compactBlock.getUncompactMaterial());
+        this.recipe = new ShapedRecipe(key, compactBlock.getCompactItem());
+        this.recipe.shape("xxx", "xxx", "xxx");
+        this.recipe.setIngredient('x', compactBlock.getUncompactMaterial());
     }
 
-    public ShapedRecipe getShapedRecipe() {
-        return shapedRecipe;
+    public ShapedRecipe getRecipe() {
+        return recipe;
     }
 
     public CompactBlock getCompactBlock() {
@@ -28,7 +28,7 @@ public class CompactBlockRecipe {
     public String toString() {
         return "CompactRecipe{" +
                 "compactBlock=" + compactBlock +
-                ", shapedRecipe=" + shapedRecipe +
+                ", shapedRecipe=" + recipe +
                 '}';
     }
 }
