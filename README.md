@@ -111,7 +111,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 [forks-shield]: https://img.shields.io/github/forks/karlmartitoots/CompactBlocks?style=for-the-badge
 [forks-url]: https://github.com/karlmartitoots/CompactBlocks/network/members
 [stars-shield]: https://img.shields.io/github/stars/karlmartitoots/CompactBlocks?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/CompactBlocks/stargazers
+[stars-url]: https://github.com/karlmartitoots/CompactBlocks/stargazers
 [issues-shield]: https://img.shields.io/github/issues/karlmartitoots/CompactBlocks?style=for-the-badge
 [issues-url]: https://github.com/karlmartitoots/CompactBlocks/issues
 [license-shield]: https://img.shields.io/github/license/karlmartitoots/CompactBlocks?style=for-the-badge
