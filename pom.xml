@@ -6,7 +6,7 @@
 
     <groupId>ee.kmtster</groupId>
     <artifactId>compact_blocks</artifactId>
-    <version>1.16.5-254</version>
+    <version>1.17.1-254</version>
     <packaging>jar</packaging>
 
     <name>Compact_blocks</name>
@@ -40,7 +40,7 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.16.5-R0.1-SNAPSHOT</version>
+            <version>1.17.1-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>

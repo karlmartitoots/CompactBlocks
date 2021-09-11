@@ -1,0 +1,11 @@
+raw gold block
+raw iron block
+smooth basalt
+polished deepslate
+chiseled deepslate
+deepslate tiles
+cracked deepslate bricks
+cracked deepslate tiles
+deepslate iron ore
+deepslate copper ore
+deepslate coal ore
