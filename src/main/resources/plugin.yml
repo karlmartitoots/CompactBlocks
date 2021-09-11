@@ -1,0 +1,6 @@
+name: CompactBlocks
+version: ${project.version}
+main: ee.kmtster.compact_blocks.CompactBlocks
+api-version: 1.16
+author: kmtster
+description: Adds possibility to craft and uncraft compacted variants of blocks
